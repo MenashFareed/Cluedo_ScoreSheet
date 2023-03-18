@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Cluedo_ScoreSheet/static/css/main.94362d09.css",
-    "main.js": "/Cluedo_ScoreSheet/static/js/main.500a3afe.js",
+    "main.css": "/Cluedo_ScoreSheet/static/css/main.7413e3f8.css",
+    "main.js": "/Cluedo_ScoreSheet/static/js/main.337d9044.js",
     "static/js/787.bc7d429a.chunk.js": "/Cluedo_ScoreSheet/static/js/787.bc7d429a.chunk.js",
     "static/media/logo.svg": "/Cluedo_ScoreSheet/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Cluedo_ScoreSheet/index.html",
-    "main.94362d09.css.map": "/Cluedo_ScoreSheet/static/css/main.94362d09.css.map",
-    "main.500a3afe.js.map": "/Cluedo_ScoreSheet/static/js/main.500a3afe.js.map",
+    "main.7413e3f8.css.map": "/Cluedo_ScoreSheet/static/css/main.7413e3f8.css.map",
+    "main.337d9044.js.map": "/Cluedo_ScoreSheet/static/js/main.337d9044.js.map",
     "787.bc7d429a.chunk.js.map": "/Cluedo_ScoreSheet/static/js/787.bc7d429a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94362d09.css",
-    "static/js/main.500a3afe.js"
+    "static/css/main.7413e3f8.css",
+    "static/js/main.337d9044.js"
   ]
 }
