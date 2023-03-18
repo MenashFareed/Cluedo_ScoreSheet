@@ -48,15 +48,6 @@ function App() {
 
   return (
     <div className="App">
-      <button onClick={handleShowPopup}>Show Character List</button>
-      {showPopup && (
-        <Popup
-          characters={charactersList}
-          weapons={weaponsList}
-          locations={locationsList}
-          closePopup={handlePopupClose}
-        />
-      )}
       <table id="customers">
         <thead>
           <tr>
@@ -174,8 +165,15 @@ function App() {
           ))}
         </tbody>
       </table>
-      <button id="solution-btn">Possible Solutions</button>
-      
+      <button id="solution-btn" onClick={handleShowPopup}>Possible Solutions</button>
+      {showPopup && (
+        <Popup
+          characters={charactersList}
+          weapons={weaponsList}
+          locations={locationsList}
+          closePopup={handlePopupClose}
+        />
+      )}
     </div>
   );
 }

@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  height: 100%;
 }
 
 #customers {
@@ -57,4 +58,14 @@
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.popup-list {
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+.popup-list-items { 
+  padding: 12px;
+  list-style-type:disc;
 }
